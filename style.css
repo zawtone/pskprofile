@@ -1,0 +1,428 @@
+body{
+    background-image: url(https://zawtone.github.io/pskprofile/019 Malibu Beach.png);
+    background-size: cover;
+}
+.the-whole {
+    width: 100%;
+    height: auto;
+
+}
+
+.innerthe-whole {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+}
+
+.pic-name {
+    width: 100%;
+    height: 235px;
+}
+
+.pic-profile {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.inner-pic-profile{
+    transform: rotate(45deg);
+    border: 8px solid #54777b;
+    height: 150px;
+    width: 150px;
+}
+.inner-pic-profile img {
+    transform: rotate(-90deg);
+    width: 150px;
+    height: 150px;
+}
+
+.name-profile {
+    float: left;
+    display: block;
+    height: 60px;
+    max-width: 500px;
+    margin-left: -20px;
+	margin-top: 30px;
+}
+
+.inner-name-profile p {
+    display: block;
+    transform: skew(-45deg);
+    height: 50px;
+    width: 200px;
+    padding-top: 6px;
+    padding-left: 32px;
+    color: white;
+    font-family: Agency FB;
+    font-size: 23px;
+}
+
+.inner-name-profile {
+    width: 200px;
+    height: 50px;
+    transform: skew(45deg);
+    background-color: #bf2942;
+}
+
+.social-detail-whole {
+
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+
+}
+
+
+.social-part {
+
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-left: -180px;
+    margin-top: 100px;
+
+}
+
+.social-facebook {
+
+    width: 50px;
+    height: 81px;
+    background-color: #0a67ba;
+    transform: skewy(45deg);
+
+}
+
+.social-facebook a {
+    color: white;
+    text-decoration: none;
+    transform: skewy(-45deg);
+    padding: 28px 17px;
+    font-size: 27px;
+}
+
+.social-linked {
+
+    width: 50px;
+    height: 81px;
+    background-color: #55ACEE;;
+    transform: skewy(45deg);
+    margin-top: 10px;
+
+}
+
+.social-linked a {
+    color: white;
+    text-decoration: none;
+    transform: skewy(-45deg);
+    padding: 23px 12px;
+    font-size: 27px;
+}
+
+.detail-part-whole {
+    
+    max-width: 700px;
+    border: 5px solid #54777B;
+    display: block;
+    margin-left: 115px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.detail-inner-part {
+    width: 200px;
+    height: 50px;
+    transform: skew(-45deg);
+    background-color: #bf2942;
+    margin-left: 94px;
+    margin-top: -13px;
+}
+
+.detail-inner-part p {
+    display: block;
+    transform: skew(45deg);
+    height: 50px;
+    width: 200px;
+    padding-top: 6px;
+    padding-left: 40px;
+    color: white;
+    font-family: Agency FB;
+    font-size: 23px;
+}
+.contact-detail-ph{
+
+    
+    height: 45px;
+
+}
+
+.icon-contact {
+
+    width: 40px;
+    height: 40px;
+    background-color: #e2b931;
+    display: block;
+    float: left;
+    margin-left: 65px;
+
+}
+
+.icon-contact  a{
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 20px;
+
+}
+
+.text-contact{
+
+   
+    border-right: 1px solid #bf2942;
+    border-bottom: 1px solid #bf2942;
+    border-top: 1px solid #bf2942;
+    width: 240px;
+    float: left;
+    height: 38px;
+    margin-left: 10px;
+    border-left: 7px solid #bf2942;
+
+}
+
+.text-contact p {
+
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #bf2942;
+
+}
+
+.header-bio {
+    width: 40px;
+    height: 40px;
+    background-color: #BF2942;
+    transform: rotate(45deg);
+    border-radius: 4px;
+    float: left;
+    margin-top: -19px;
+    margin-left: -19px;
+}
+
+.bio-psk-whole {
+    max-width: 500px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.header-bio a{
+
+    color: white;
+    transform: rotate(-45deg);
+    padding-top: 9px;
+    padding-left: 9px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+}
+.location {
+
+    background-color: #54777b;
+    font-size: 15px;
+    padding: 3px;
+        padding-left: 3px;
+    margin-top: -4px;
+    color: white;
+    padding-left: 29px;
+
+}
+/*media*/
+
+@media(max-width: 322px){
+.pic-name {
+    width: 100%;
+    height: 208px;
+}
+.pic-profile {
+    width: 131px;
+    height: 132px;
+    float: left;
+    padding-top: 35px;
+    padding-left: 25px;
+}
+.inner-pic-profile {
+    transform: rotate(45deg);
+    border: 8px solid #54777b;
+    height: 95px;
+    width: 95px;
+}
+.inner-pic-profile img {
+    width: 95px;
+    height: 95px;
+}
+.name-profile {
+    float: left;
+    display: block;
+    height: 66px;
+    max-width: 500px;
+    margin-left: -16px;
+    margin-top: 34px;
+}
+.inner-name-profile {
+    width: 138px;
+    height: 34px;
+    transform: skew(45deg);
+    background-color: #bf2942;
+}
+.inner-name-profile p {
+    display: block;
+    transform: skew(-45deg);
+    height: 28px;
+    width: 110px;
+    padding-top: 7px;
+    padding-left: 29px;
+    color: white;
+    font-family: Agency FB;
+    font-size: 16px;
+}
+.social-detail-whole {
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+}
+.social-part {
+
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-left: -248px;
+    margin-top: 61px;
+
+}
+.social-facebook {
+    width: 41px;
+    height: 68px;
+    background-color: #0a67ba;
+    transform: skewy(45deg);
+}
+.social-facebook a {
+    color: white;
+    text-decoration: none;
+    transform: skewy(-45deg);
+    padding: 22px 12px;
+    font-size: 23px;
+}
+.social-linked {
+    width: 41px;
+    height: 68px;
+    background-color: #55ACEE;
+    transform: skewy(45deg);
+    margin-top: 10px;
+}
+.social-linked a {
+    color: white;
+    text-decoration: none;
+    transform: skewy(-45deg);
+    padding: 22px 9px;
+    font-size: 22px;
+}
+.detail-part-whole {
+    max-width: 700px;
+    border: 5px solid #54777B;
+    display: block;
+    margin-left: 79px;
+    height: auto;
+    border-radius: 5px;
+}
+.detail-inner-part {
+    width: 140px;
+    height: 36px;
+    transform: skew(-45deg);
+    background-color: #bf2942;
+    margin-left: 55px;
+    margin-top: -12px;
+}
+.detail-inner-part p {
+    display: block;
+    transform: skew(45deg);
+    height: 25px;
+    width: 115px;
+    padding-top: 7px;
+    padding-left: 27px;
+    color: white;
+    font-family: Agency FB;
+    font-size: 16px;
+}
+.contact-detail-ph {
+    height: 31px;
+}
+.icon-contact {
+    width: 30px;
+    height: 30px;
+    background-color: #e2b931;
+    display: block;
+    float: left;
+    margin-left: 5px;
+}
+.icon-contact a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-top: 9px;
+    font-size: 15px;
+}
+.text-contact {
+    border-right: 1px solid #bf2942;
+    border-bottom: 1px solid #bf2942;
+    border-top: 1px solid #bf2942;
+    width: 165px;
+    float: left;
+    height: 28px;
+    margin-left: 4px;
+    border-left: 7px solid #bf2942;
+}
+.text-contact p {
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #bf2942;
+    font-size: 11px;
+}
+.header-bio {
+    width: 30px;
+    height: 30px;
+    background-color: #BF2942;
+    transform: rotate(45deg);
+    border-radius: 4px;
+    float: left;
+    margin-top: -16px;
+    margin-left: -14px;
+}
+.header-bio a {
+    color: white;
+    transform: rotate(-45deg);
+    padding-top: 6px;
+    padding-left: 7px;
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+}
+.location {
+    background-color: #54777b;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 3px;
+    margin-top: -4px;
+    color: white;
+    padding-left: 16px;
+}
+}
