@@ -286,7 +286,7 @@ body{
     display: block;
     transform: skew(-45deg);
     height: 28px;
-    width: 110px;
+    width: 150px;
     padding-top: 7px;
     padding-left: 29px;
     color: white;
@@ -354,7 +354,7 @@ body{
     display: block;
     transform: skew(45deg);
     height: 25px;
-    width: 115px;
+    width: 155px;
     padding-top: 7px;
     padding-left: 27px;
     color: white;
