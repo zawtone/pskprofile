@@ -94,6 +94,7 @@ body{
     height: 81px;
     background-color: #0a67ba;
     transform: skewy(45deg);
+	box-shadow: 2px 2px 5px gray;
 
 }
 
@@ -112,6 +113,7 @@ body{
     background-color: #55ACEE;;
     transform: skewy(45deg);
     margin-top: 10px;
+	box-shadow: 2px 2px 5px gray;
 
 }
 
